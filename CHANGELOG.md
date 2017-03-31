@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.12.0] - 2017-03-16
+### Added
+- Adds `Facebook::Messenger::Profile` module for new Messenger Profile
+  API.
+- Added deprecation warnings to Facebook::Messenger::Thread as the
+  Thread Settings API has been replaced by the Messenger Profile API.
+
 ## [0.11.1] - 2016-11-23
 ### Fixed
 - Webhooks that don't have messaging will now be ignored rather than crash.
